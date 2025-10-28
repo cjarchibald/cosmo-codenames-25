@@ -13,15 +13,15 @@ The guesser, using the same embeddings, works backward from the clue to identify
 
 ### Setup the Competition Environment
 1. Follow the steps in the link to the repo above to set up the competition code.
-2. Then follow the Instructions_for_Competition_Files.pdf within the setup_helpers directory to set up the bots properly in the competition framework.
+2. Then follow the [Bot Instructions](setup_helpers/Instructions_for_Competition_Files.pdf) to set up the bots properly in the competition framework.
 
 ### Get The Word Embeddings
-To get the word embeddings go to [ConceptNet Numberbatch](https://github.com/commonsense/conceptnet-numberbatch) and download the Version 19.08 English-only embeddings. Then you want to filter it so you only keep the words located within the actual-final-wl.txt file located within the arg_framework directory. 
+To get the word embeddings go to [ConceptNet Numberbatch](https://github.com/commonsense/conceptnet-numberbatch) and download the Version 19.08 English-only embeddings. Then you want to filter it so you only keep the words located within the [Word List](arg_framework/actual-final-wl.txt). 
 
-Once you have those filtered embeddings you will put them into the cn_nb_word_vectors.txt file located within the arg_framework directory. Example pictures are within the setup_helpers directory labeled embedding_example1.png and embedding_example2.png.
+Once you have those filtered embeddings you will put them into the [ConceptNet Numberbatch Embeddings](arg_framework/cn_nb_word_vectors.txt). Use example pictures [Example Pic 1](setup_helpers/embedding_example1.png) and [Example Pic 2](setup_helpers/embedding_example2.png) for reference as to what the final result will look like.
 
 ### Get the Word Associations
-Navigate to the associations_creator.py file in the setup_helpers directory and run it. Make sure to run it from the parent directory so the filepaths work as they are supposed to.
+Navigate to the [Associations Creator](setup_helpers/associations_creator.py) file and run it. Make sure to run it from the parent directory so the filepaths work as they are supposed to.
 
 ### Run the Bots
-Now you should have everything set up! Run the bots using the intructions in the Instructions_for_Competition_Files.pdf within the setup_helpers directory!
+Now you should have everything set up! Run the bots using the [Bot Instructions](setup_helpers/Instructions_for_Competition_Files.pdf)!
