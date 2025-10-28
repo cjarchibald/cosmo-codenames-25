@@ -2,7 +2,7 @@
 cosmo codenames agent for 2025 ieee cog codenames competition
 [Codenames Competition Repo](https://github.com/stepmat/Codenames_GPT)
 
-Bot developed by Christopher Arhicbald, Joseph Dahlke, Thomas Esplin, Olivia Leavitt, and Matthew Sheppard
+Bot developed by Christopher Archibald, Joseph Dahlke, Thomas Esplin, Olivia Leavitt, and Matthew Sheppard
 
 ## Bot Overview
 Our bot employs a hybrid strategy combining large language model (LLM) capabilities with a static word embedding to balance vocabulary breadth with precise alignment between the codemaster and guesser. Both roles use a set of 13,000 static embeddings from ConceptNet Numberbatch to calculate cosine distances between words.  The codemaster evaluates thousands of candidate words to find those that are closest semantically to the most target team words while being far from other board words. Instead of always selecting the clue yielding the highest number of connections, we typically choose a 4–5 word clue paired with a complementary second clue, targeting a two turn completion time while preserving strong semantic ties. 
